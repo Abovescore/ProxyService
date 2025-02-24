@@ -12,7 +12,7 @@ const ALLOWED_METHODS = http.METHODS;
 const ALLOWED_PROTOS = ['http', 'https'];
 const ALLOWED_GZIP_METHODS = ['transform', 'decode', 'append'];
 const DEFAULT_PROTO = 'https';
-const DEFAULT_USERAGENT = 'Mozilla';
+const DEFAULT_USERAGENT = '';
 
 const getHosts = (hosts) => {
   if (!hosts) {
